@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Slot Mathematics Engine</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="cabinet">
+    <h1>Slot Mathematics Engine</h1>
+
+    <div class="status-bar">
+      <div class="stat">
+        <span class="label">Balance</span>
+        <span id="balance" class="value">100.00</span>
+      </div>
+      <div class="stat">
+        <span class="label">Bet</span>
+        <select id="bet-select">
+          <option value="1">1</option>
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="25">25</option>
+        </select>
+      </div>
+      <div class="stat">
+        <span class="label">Last Win</span>
+        <span id="last-win" class="value">0.00</span>
+      </div>
+    </div>
+
+    <div id="grid" class="grid"></div>
+
+    <div id="message" class="message"></div>
+
+    <div id="free-spins-panel" class="free-spins-panel hidden">
+      <span>Free Spins Remaining: <span id="fs-remaining">0</span></span>
+      <span>Bonus Win: <span id="fs-total">0.00</span></span>
+    </div>
+
+    <div class="controls">
+      <button id="spin-btn">SPIN</button>
+      <button id="reset-btn">Reset Balance</button>
+    </div>
+
+    <p class="footnote">Config: full_game_with_bonus.json &middot; ~96% RTP incl. bonus &middot; 3+ Scatter triggers 10 free spins with sticky wilds</p>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "num_rows": 3,
+  "reels": [
+    ["CHERRY", "LEMON", "ORANGE", "CHERRY", "PLUM", "LEMON", "BAR", "CHERRY", "ORANGE", "WILD", "LEMON", "PLUM", "CHERRY", "SEVEN", "ORANGE", "LEMON", "BAR", "PLUM", "SCATTER", "CHERRY"],
+    ["CHERRY", "LEMON", "ORANGE", "CHERRY", "PLUM", "LEMON", "BAR", "CHERRY", "ORANGE", "WILD", "LEMON", "PLUM", "CHERRY", "SEVEN", "ORANGE", "LEMON", "BAR", "PLUM", "SCATTER", "CHERRY"],
+    ["CHERRY", "LEMON", "ORANGE", "CHERRY", "PLUM", "LEMON", "BAR", "CHERRY", "ORANGE", "WILD", "LEMON", "PLUM", "CHERRY", "SEVEN", "ORANGE", "LEMON", "BAR", "PLUM", "SCATTER", "CHERRY"],
+    ["CHERRY", "LEMON", "ORANGE", "CHERRY", "PLUM", "LEMON", "BAR", "CHERRY", "ORANGE", "WILD", "LEMON", "PLUM", "CHERRY", "SEVEN", "ORANGE", "LEMON", "BAR", "PLUM", "SCATTER", "CHERRY"],
+    ["CHERRY", "LEMON", "ORANGE", "CHERRY", "PLUM", "LEMON", "BAR", "CHERRY", "ORANGE", "WILD", "LEMON", "PLUM", "CHERRY", "SEVEN", "ORANGE", "LEMON", "BAR", "PLUM", "SCATTER", "CHERRY"]
+  ],
+  "paylines": [
+    [1, 1, 1, 1, 1],
+    [0, 0, 0, 0, 0],
+    [2, 2, 2, 2, 2],
+    [0, 1, 2, 1, 0],
+    [2, 1, 0, 1, 2]
+  ],
+  "paytable": {
+    "CHERRY": {"3": 1.5, "4": 3, "5": 6},
+    "LEMON": {"3": 1.5, "4": 3, "5": 6},
+    "ORANGE": {"3": 3, "4": 6, "5": 12},
+    "PLUM": {"3": 3, "4": 6, "5": 12},
+    "BAR": {"3": 7, "4": 14, "5": 28},
+    "SEVEN": {"3": 14, "4": 28, "5": 56},
+    "WILD": {"3": 28, "4": 56, "5": 140}
+  },
+  "scatter_paytable": {
+    "3": 0.5,
+    "4": 3,
+    "5": 14
+  }
+}

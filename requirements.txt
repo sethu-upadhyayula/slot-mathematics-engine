@@ -1,0 +1,8 @@
+pytest
+flask
+streamlit
+matplotlib
+numpy
+nbconvert
+ipykernel
+scipy

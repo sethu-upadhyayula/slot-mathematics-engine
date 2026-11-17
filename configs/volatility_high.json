@@ -1,0 +1,32 @@
+{
+  "_description": "Machine B - high volatility: filler-heavy reels, top-heavy paytable. Rare huge wins, ~96% RTP.",
+  "num_rows": 3,
+  "reels": [
+    ["CHERRY", "LEMON", "CHERRY", "CHERRY", "LEMON", "ORANGE", "CHERRY", "LEMON", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "CHERRY", "WILD", "LEMON", "CHERRY", "PLUM", "SCATTER"],
+    ["CHERRY", "LEMON", "CHERRY", "CHERRY", "LEMON", "ORANGE", "CHERRY", "LEMON", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "CHERRY", "WILD", "LEMON", "CHERRY", "PLUM", "SCATTER"],
+    ["CHERRY", "LEMON", "CHERRY", "CHERRY", "LEMON", "ORANGE", "CHERRY", "LEMON", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "CHERRY", "WILD", "LEMON", "CHERRY", "PLUM", "SCATTER"],
+    ["CHERRY", "LEMON", "CHERRY", "CHERRY", "LEMON", "ORANGE", "CHERRY", "LEMON", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "CHERRY", "WILD", "LEMON", "CHERRY", "PLUM", "SCATTER"],
+    ["CHERRY", "LEMON", "CHERRY", "CHERRY", "LEMON", "ORANGE", "CHERRY", "LEMON", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "CHERRY", "WILD", "LEMON", "CHERRY", "PLUM", "SCATTER"]
+  ],
+  "paylines": [
+    [1, 1, 1, 1, 1],
+    [0, 0, 0, 0, 0],
+    [2, 2, 2, 2, 2],
+    [0, 1, 2, 1, 0],
+    [2, 1, 0, 1, 2]
+  ],
+  "paytable": {
+    "CHERRY": {"3": 0.705, "4": 1.411, "5": 2.821},
+    "LEMON": {"3": 0.705, "4": 1.411, "5": 2.821},
+    "ORANGE": {"3": 1.411, "4": 2.821, "5": 5.642},
+    "PLUM": {"3": 1.411, "4": 2.821, "5": 5.642},
+    "BAR": {"3": 4.282, "4": 8.564, "5": 17.128},
+    "SEVEN": {"3": 14.105, "4": 56.422, "5": 352.635},
+    "WILD": {"3": 28.211, "4": 141.054, "5": 1133.468}
+  },
+  "scatter_paytable": {
+    "3": 1.411,
+    "4": 11.335,
+    "5": 141.054
+  }
+}

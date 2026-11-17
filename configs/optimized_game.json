@@ -1,0 +1,195 @@
+{
+  "_description": "Auto-tuned by scripts/run_optimizer.py to hit RTP=96%, hit_frequency=30%, CV=2.5.",
+  "num_rows": 3,
+  "reels": [
+    [
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "LEMON",
+      "LEMON",
+      "LEMON",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "PLUM",
+      "PLUM",
+      "PLUM",
+      "BAR",
+      "BAR",
+      "SEVEN",
+      "WILD",
+      "SCATTER",
+      "SCATTER"
+    ],
+    [
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "LEMON",
+      "LEMON",
+      "LEMON",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "PLUM",
+      "PLUM",
+      "PLUM",
+      "BAR",
+      "BAR",
+      "SEVEN",
+      "WILD",
+      "SCATTER",
+      "SCATTER"
+    ],
+    [
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "LEMON",
+      "LEMON",
+      "LEMON",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "PLUM",
+      "PLUM",
+      "PLUM",
+      "BAR",
+      "BAR",
+      "SEVEN",
+      "WILD",
+      "SCATTER",
+      "SCATTER"
+    ],
+    [
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "LEMON",
+      "LEMON",
+      "LEMON",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "PLUM",
+      "PLUM",
+      "PLUM",
+      "BAR",
+      "BAR",
+      "SEVEN",
+      "WILD",
+      "SCATTER",
+      "SCATTER"
+    ],
+    [
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "CHERRY",
+      "LEMON",
+      "LEMON",
+      "LEMON",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "ORANGE",
+      "PLUM",
+      "PLUM",
+      "PLUM",
+      "BAR",
+      "BAR",
+      "SEVEN",
+      "WILD",
+      "SCATTER",
+      "SCATTER"
+    ]
+  ],
+  "paylines": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      2
+    ]
+  ],
+  "paytable": {
+    "CHERRY": {
+      "3": 0.9769,
+      "4": 1.9539,
+      "5": 3.9078
+    },
+    "LEMON": {
+      "3": 0.9769,
+      "4": 1.9539,
+      "5": 3.9078
+    },
+    "ORANGE": {
+      "3": 1.9539,
+      "4": 3.9078,
+      "5": 7.8156
+    },
+    "PLUM": {
+      "3": 1.9539,
+      "4": 3.9078,
+      "5": 7.8156
+    },
+    "BAR": {
+      "3": 4.5591,
+      "4": 9.1182,
+      "5": 18.2363
+    },
+    "SEVEN": {
+      "3": 9.1182,
+      "4": 18.2363,
+      "5": 36.4727
+    },
+    "WILD": {
+      "3": 18.2363,
+      "4": 36.4727,
+      "5": 91.1817
+    }
+  },
+  "scatter_paytable": {
+    "3": 0.3256,
+    "4": 1.9539,
+    "5": 9.1182
+  }
+}

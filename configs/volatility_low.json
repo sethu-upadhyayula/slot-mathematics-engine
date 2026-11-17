@@ -1,0 +1,32 @@
+{
+  "_description": "Machine A - low volatility: heavy low-symbol weighting, flat paytable. Frequent small wins, ~96% RTP.",
+  "num_rows": 3,
+  "reels": [
+    ["CHERRY", "LEMON", "CHERRY", "ORANGE", "LEMON", "CHERRY", "PLUM", "LEMON", "ORANGE", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "PLUM", "WILD", "CHERRY", "LEMON", "SCATTER"],
+    ["CHERRY", "LEMON", "CHERRY", "ORANGE", "LEMON", "CHERRY", "PLUM", "LEMON", "ORANGE", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "PLUM", "WILD", "CHERRY", "LEMON", "SCATTER"],
+    ["CHERRY", "LEMON", "CHERRY", "ORANGE", "LEMON", "CHERRY", "PLUM", "LEMON", "ORANGE", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "PLUM", "WILD", "CHERRY", "LEMON", "SCATTER"],
+    ["CHERRY", "LEMON", "CHERRY", "ORANGE", "LEMON", "CHERRY", "PLUM", "LEMON", "ORANGE", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "PLUM", "WILD", "CHERRY", "LEMON", "SCATTER"],
+    ["CHERRY", "LEMON", "CHERRY", "ORANGE", "LEMON", "CHERRY", "PLUM", "LEMON", "ORANGE", "CHERRY", "BAR", "LEMON", "ORANGE", "CHERRY", "SEVEN", "PLUM", "WILD", "CHERRY", "LEMON", "SCATTER"]
+  ],
+  "paylines": [
+    [1, 1, 1, 1, 1],
+    [0, 0, 0, 0, 0],
+    [2, 2, 2, 2, 2],
+    [0, 1, 2, 1, 0],
+    [2, 1, 0, 1, 2]
+  ],
+  "paytable": {
+    "CHERRY": {"3": 1.284, "4": 2.569, "5": 5.137},
+    "LEMON": {"3": 1.284, "4": 2.569, "5": 5.137},
+    "ORANGE": {"3": 2.569, "4": 5.137, "5": 10.274},
+    "PLUM": {"3": 2.569, "4": 5.137, "5": 10.274},
+    "BAR": {"3": 5.137, "4": 10.274, "5": 20.549},
+    "SEVEN": {"3": 7.706, "4": 15.412, "5": 30.823},
+    "WILD": {"3": 10.274, "4": 20.549, "5": 41.098}
+  },
+  "scatter_paytable": {
+    "3": 0.616,
+    "4": 2.569,
+    "5": 7.706
+  }
+}
